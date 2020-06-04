@@ -1,61 +1,67 @@
 ---
-title: My capstone project
-description: "Trust me, it'll be cool"
+title: NM Trailmaster
+description: "A guide to local trails in the Albuquerque area, camp sites in New Mexico, and a community of nature-lovers that post information on their own go-to trails and camp sites."
 layout: default
 ---
 
 ## Summary
 
-Replace this paragraph with one or more paragraphs summarizing the purpose and operation of the software you propose to develop in this project.
+Alot of New Mexicans can agree that the true beauty of this state is not fonud in Urban areas, but outside in nature. This app provides information on popular trails in ABQ (including parking options and the best times to visit said trails), It also provides information on some of the more popular camp sites in NM (including phone numbers to those in charge of maintaining these campsites, as well as a list of items you should bring when camping) and most importantly it is building a community of people who want to share their "sacred spots" with other nature-connoisseurs. NM Trailmaster is a gateway to many paths others have walked in our beatiful southwestern landscape.
 
 ## Intended users
 
-Write a bullet list here, including at least 2 different types of intended users. Make it reasonably specific; simply saying "Anyone who likes games" (for example) is not sufficiently specific.
+* People that are looking for something active and fun to do.
+	
+	> As a bromidrophobe, I hate doing cardio in a gym environment, I need something to help me get active in a way that doesn't include me standing in a pile of someone else's sweat.
 
-For each type of intended user, include at least 1 _user story_. A user story is usually just 1 simple sentence (no more than 2 sentences), in the voice of the intended user, stating a specific task that the user needs to perform, and the benefit that will be obtained. The simplest user stories take the form 
+* Bored and broke New Mexicans that want to find cheaper ways to entertain themselves.
+	
+	> As a working stiff, I'm tired of doing jello-shots at TGI Fridays and then not being able to pay my rent, I need a cheaper way to get my mind off what seems to be my impending doom at the hands of a super-flu.
+	
+* Adventurers that want to challenge themselves.
 
-> As a <type of intended user (_who_)> I want to <goal (_what_)> so that <benefit (_why_).
-
-Please avoid writing too much for the user story. In particular, if the way the user story is written makes it difficult to see the _who_, _what_, and _why_, then you probably need to re-write it more directly. (On the other hand, a user story should not simply be a re-statement of the intended user description.)
-
-Here is one (silly) example of an intended user, along with a user story. Please note not only the conceptual structure, but the Markdown syntax used.
-
-* People who like to use randomness in their decision making.
-
-    > As someone who enjoys randomness in my life, I need an app that lets me flip a virtual coin or roll one or more virtual dice, so that I can base my decisions on randomness, without having to carry coins or dice in my pockets.
+	> As a self-proclaimmed hike guru, I need a way to keep track of all the awesome trails i've blazed, so I can shove it in all the haters faces! Namaste. 
 
 ## Client component
 
 * **Functionality**
 
-    List the key functional aspects that will be provided by the user interface&mdash;i.e. tell us what the user will be able to do in the GUI.
+   * Browse a list of of trails and campsites that have clear directions and pictures to create a stress-less outing.
+   
+   * Document your own favorite spots (with photos and pinpoints).
+   
+   * Take the Trailmaster challenge and visit all the trails and campsites. 
+   
+   * Never forget a thing again with our CampMasters essentials guide.
 
 * **Persistent data**
 
-    Summarize, in general terms, what content will be stored on the client side. This should include any information that a user of your system should expect to be maintained locally (i.e. without connection to a server) across multiple sessions of use, on a single device. 
+    * User photo galleries.
+
+	* Stored campsite coordinates.
+
+	* Camplog (for simple journal entries, notes) 
     
 * **Device/external services**
 
-    If the client component will need to access special services of the device (e.g. sensors, contacts, messaging), list them here. Also, if the client component will need to access already-existing external services (e.g. real-time weather data, Open Trivia Database), those should also be listed here; any such references to external services should include links to the main page or API description page for the service.
-    
-For listing multiple items, please use bullet lists (or ordered lists, if order is relevant), not just separate lines or paragraphs of text.
-    
+	*Navigational system
+ 
 ## Server component
 
 * **Functionality**
 
-    List the key functional aspects that will be provided by the server component&mdash;i.e. tell us what parts of the system functionality will be performed by the server.
+   * Post to our Trialmasters Community feed. 
+   
+   * Message your fellow Trailmasters to find the best spots!
 
-* **Persistent data**
+* **Persistent data** 
 
-    Summarize, in general terms, what content will be stored on the server side. This should include any information that a user of your system should expect to be accessible across multiple sessions of use, even if accessed from separate devices. In addition, if there will be data originating from some users that will then be accessible by other users, it should be part of the persistent data on the server. 
+   * Liked posts
+   
+   * Messages
     
-* **External services**
-
-    If the server component will need to access already-existing external services (e.g. stock prices, Open Movie Database), those should also be listed here. Any such references to external services should include links to the main page or API description page for the service.
-    
-For listing multiple items, please use bullet lists (or ordered lists, if order is relevant), not just separate lines or paragraphs of text.
-    
+   
 ## Stretch goals/possible enhancements 
 
-If you can identify functional elements of the software that you think might not be achievable in the scope of the project, but which would nonetheless add significant value if you were able to include them, list them here. For now, we recommend listing them in order of complexity/amount of work, from the least to the most.
+	* Weather functions (to plan trips in advance).
+	
